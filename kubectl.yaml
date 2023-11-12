@@ -9,7 +9,7 @@ spec:
       targetPort: 8000
   selector:
     app: web-app
-  type: LoadBalancer
+  type: ClusterIP
 ---
 apiVersion: apps/v1
 kind: Deployment
